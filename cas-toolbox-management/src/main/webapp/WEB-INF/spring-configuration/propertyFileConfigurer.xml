@@ -32,6 +32,7 @@
 		can be moved between tiers without modification.
 	</description>
     
-    <context:property-placeholder location="/WEB-INF/cas.properties" order="1" ignore-unresolvable="true"/>
+    <context:property-placeholder location="/WEB-INF/cas-management.properties" order="1" ignore-unresolvable="true"/> 
     <context:property-placeholder location="/WEB-INF/esup.properties" order="2" ignore-unresolvable="true"/>
+
 </beans>
